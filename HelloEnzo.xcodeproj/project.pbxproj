@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BEDF8F615ABDE4B00C76C51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEDF8F515ABDE4B00C76C51 /* UIKit.framework */; };
+		7BEDF8F815ABDE4B00C76C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEDF8F715ABDE4B00C76C51 /* Foundation.framework */; };
+		7BEDF8FA15ABDE4B00C76C51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEDF8F915ABDE4B00C76C51 /* CoreGraphics.framework */; };
+		7BEDF90015ABDE4B00C76C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BEDF8FE15ABDE4B00C76C51 /* InfoPlist.strings */; };
+		7BEDF90215ABDE4B00C76C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDF90115ABDE4B00C76C51 /* main.m */; };
+		7BEDF90615ABDE4B00C76C51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDF90515ABDE4B00C76C51 /* AppDelegate.m */; };
+		7BEDF90915ABDE4B00C76C51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDF90815ABDE4B00C76C51 /* ViewController.m */; };
+		7BEDF90C15ABDE4B00C76C51 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEDF90A15ABDE4B00C76C51 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BEDF8F115ABDE4B00C76C51 /* HelloEnzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloEnzo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEDF8F515ABDE4B00C76C51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BEDF8F715ABDE4B00C76C51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BEDF8F915ABDE4B00C76C51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BEDF8FD15ABDE4B00C76C51 /* HelloEnzo-Info.plist */ = {isa = PBXFileReference; path = "HelloEnzo-Info.plist"; sourceTree = "<group>"; };
+		7BEDF8FF15ABDE4B00C76C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BEDF90115ABDE4B00C76C51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BEDF90315ABDE4B00C76C51 /* HelloEnzo-Prefix.pch */ = {isa = PBXFileReference; path = "HelloEnzo-Prefix.pch"; sourceTree = "<group>"; };
+		7BEDF90415ABDE4B00C76C51 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BEDF90515ABDE4B00C76C51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BEDF90715ABDE4B00C76C51 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7BEDF90815ABDE4B00C76C51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BEDF90B15ABDE4B00C76C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BEDF8EE15ABDE4B00C76C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEDF8F615ABDE4B00C76C51 /* UIKit.framework in Frameworks */,
+				7BEDF8F815ABDE4B00C76C51 /* Foundation.framework in Frameworks */,
+				7BEDF8FA15ABDE4B00C76C51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BEDF8E615ABDE4A00C76C51 = {
+			isa = PBXGroup;
+			children = (
+				7BEDF8FB15ABDE4B00C76C51 /* HelloEnzo */,
+				7BEDF8F415ABDE4B00C76C51 /* Frameworks */,
+				7BEDF8F215ABDE4B00C76C51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BEDF8F215ABDE4B00C76C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BEDF8F115ABDE4B00C76C51 /* HelloEnzo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BEDF8F415ABDE4B00C76C51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BEDF8F515ABDE4B00C76C51 /* UIKit.framework */,
+				7BEDF8F715ABDE4B00C76C51 /* Foundation.framework */,
+				7BEDF8F915ABDE4B00C76C51 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BEDF8FB15ABDE4B00C76C51 /* HelloEnzo */ = {
+			isa = PBXGroup;
+			children = (
+				7BEDF90415ABDE4B00C76C51 /* AppDelegate.h */,
+				7BEDF90515ABDE4B00C76C51 /* AppDelegate.m */,
+				7BEDF90715ABDE4B00C76C51 /* ViewController.h */,
+				7BEDF90815ABDE4B00C76C51 /* ViewController.m */,
+				7BEDF90A15ABDE4B00C76C51 /* ViewController.xib */,
+				7BEDF8FC15ABDE4B00C76C51 /* Supporting Files */,
+			);
+			path = HelloEnzo;
+			sourceTree = "<group>";
+		};
+		7BEDF8FC15ABDE4B00C76C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BEDF8FD15ABDE4B00C76C51 /* HelloEnzo-Info.plist */,
+				7BEDF8FE15ABDE4B00C76C51 /* InfoPlist.strings */,
+				7BEDF90115ABDE4B00C76C51 /* main.m */,
+				7BEDF90315ABDE4B00C76C51 /* HelloEnzo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BEDF8F015ABDE4B00C76C51 /* HelloEnzo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BEDF90F15ABDE4B00C76C51 /* Build configuration list for PBXNativeTarget "HelloEnzo" */;
+			buildPhases = (
+				7BEDF8ED15ABDE4B00C76C51 /* Sources */,
+				7BEDF8EE15ABDE4B00C76C51 /* Frameworks */,
+				7BEDF8EF15ABDE4B00C76C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloEnzo;
+			productName = HelloEnzo;
+			productReference = 7BEDF8F115ABDE4B00C76C51 /* HelloEnzo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BEDF8E815ABDE4A00C76C51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7BEDF8EB15ABDE4A00C76C51 /* Build configuration list for PBXProject "HelloEnzo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BEDF8E615ABDE4A00C76C51;
+			productRefGroup = 7BEDF8F215ABDE4B00C76C51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BEDF8F015ABDE4B00C76C51 /* HelloEnzo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BEDF8EF15ABDE4B00C76C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEDF90015ABDE4B00C76C51 /* InfoPlist.strings in Resources */,
+				7BEDF90C15ABDE4B00C76C51 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BEDF8ED15ABDE4B00C76C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEDF90215ABDE4B00C76C51 /* main.m in Sources */,
+				7BEDF90615ABDE4B00C76C51 /* AppDelegate.m in Sources */,
+				7BEDF90915ABDE4B00C76C51 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BEDF8FE15ABDE4B00C76C51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BEDF8FF15ABDE4B00C76C51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7BEDF90A15ABDE4B00C76C51 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BEDF90B15ABDE4B00C76C51 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BEDF90D15ABDE4B00C76C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BEDF90E15ABDE4B00C76C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BEDF91015ABDE4B00C76C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloEnzo/HelloEnzo-Prefix.pch";
+				INFOPLIST_FILE = "HelloEnzo/HelloEnzo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BEDF91115ABDE4B00C76C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloEnzo/HelloEnzo-Prefix.pch";
+				INFOPLIST_FILE = "HelloEnzo/HelloEnzo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BEDF8EB15ABDE4A00C76C51 /* Build configuration list for PBXProject "HelloEnzo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEDF90D15ABDE4B00C76C51 /* Debug */,
+				7BEDF90E15ABDE4B00C76C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BEDF90F15ABDE4B00C76C51 /* Build configuration list for PBXNativeTarget "HelloEnzo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEDF91015ABDE4B00C76C51 /* Debug */,
+				7BEDF91115ABDE4B00C76C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BEDF8E815ABDE4A00C76C51 /* Project object */;
+}
