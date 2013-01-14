@@ -11,10 +11,9 @@
 		7BEDF8F815ABDE4B00C76C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEDF8F715ABDE4B00C76C51 /* Foundation.framework */; };
 		7BEDF8FA15ABDE4B00C76C51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEDF8F915ABDE4B00C76C51 /* CoreGraphics.framework */; };
 		7BEDF90015ABDE4B00C76C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BEDF8FE15ABDE4B00C76C51 /* InfoPlist.strings */; };
-		7BEDF90215ABDE4B00C76C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDF90115ABDE4B00C76C51 /* main.m */; };
-		7BEDF90615ABDE4B00C76C51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDF90515ABDE4B00C76C51 /* AppDelegate.m */; };
-		7BEDF90915ABDE4B00C76C51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDF90815ABDE4B00C76C51 /* ViewController.m */; };
-		7BEDF90C15ABDE4B00C76C51 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEDF90A15ABDE4B00C76C51 /* ViewController.xib */; };
+		7BEDF90915ABDE4B00C76C51 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDF90815ABDE4B00C76C51 /* SampleViewController.m */; };
+		7BEDF91315ABECBF00C76C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDF91215ABECBF00C76C51 /* main.m */; };
+		7BEDF91615ABF2C900C76C51 /* SampleDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDF91515ABF2C900C76C51 /* SampleDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +21,14 @@
 		7BEDF8F515ABDE4B00C76C51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7BEDF8F715ABDE4B00C76C51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BEDF8F915ABDE4B00C76C51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7BEDF8FD15ABDE4B00C76C51 /* HelloEnzo-Info.plist */ = {isa = PBXFileReference; path = "HelloEnzo-Info.plist"; sourceTree = "<group>"; };
+		7BEDF8FD15ABDE4B00C76C51 /* HelloEnzo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloEnzo-Info.plist"; sourceTree = "<group>"; };
 		7BEDF8FF15ABDE4B00C76C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7BEDF90115ABDE4B00C76C51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7BEDF90315ABDE4B00C76C51 /* HelloEnzo-Prefix.pch */ = {isa = PBXFileReference; path = "HelloEnzo-Prefix.pch"; sourceTree = "<group>"; };
-		7BEDF90415ABDE4B00C76C51 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		7BEDF90515ABDE4B00C76C51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7BEDF90715ABDE4B00C76C51 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		7BEDF90815ABDE4B00C76C51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7BEDF90B15ABDE4B00C76C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7BEDF90315ABDE4B00C76C51 /* HelloEnzo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloEnzo-Prefix.pch"; sourceTree = "<group>"; };
+		7BEDF90715ABDE4B00C76C51 /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		7BEDF90815ABDE4B00C76C51 /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		7BEDF91215ABECBF00C76C51 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BEDF91415ABF1D200C76C51 /* SampleDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleDelegate.h; sourceTree = "<group>"; };
+		7BEDF91515ABF2C900C76C51 /* SampleDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +75,10 @@
 		7BEDF8FB15ABDE4B00C76C51 /* HelloEnzo */ = {
 			isa = PBXGroup;
 			children = (
-				7BEDF90415ABDE4B00C76C51 /* AppDelegate.h */,
-				7BEDF90515ABDE4B00C76C51 /* AppDelegate.m */,
-				7BEDF90715ABDE4B00C76C51 /* ViewController.h */,
-				7BEDF90815ABDE4B00C76C51 /* ViewController.m */,
-				7BEDF90A15ABDE4B00C76C51 /* ViewController.xib */,
+				7BEDF90715ABDE4B00C76C51 /* SampleViewController.h */,
+				7BEDF90815ABDE4B00C76C51 /* SampleViewController.m */,
 				7BEDF8FC15ABDE4B00C76C51 /* Supporting Files */,
+				7BEDF91415ABF1D200C76C51 /* SampleDelegate.h */,
 			);
 			path = HelloEnzo;
 			sourceTree = "<group>";
@@ -91,9 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				7BEDF8FD15ABDE4B00C76C51 /* HelloEnzo-Info.plist */,
+				7BEDF91215ABECBF00C76C51 /* main.m */,
 				7BEDF8FE15ABDE4B00C76C51 /* InfoPlist.strings */,
-				7BEDF90115ABDE4B00C76C51 /* main.m */,
 				7BEDF90315ABDE4B00C76C51 /* HelloEnzo-Prefix.pch */,
+				7BEDF91515ABF2C900C76C51 /* SampleDelegate.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BEDF90015ABDE4B00C76C51 /* InfoPlist.strings in Resources */,
-				7BEDF90C15ABDE4B00C76C51 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BEDF90215ABDE4B00C76C51 /* main.m in Sources */,
-				7BEDF90615ABDE4B00C76C51 /* AppDelegate.m in Sources */,
-				7BEDF90915ABDE4B00C76C51 /* ViewController.m in Sources */,
+				7BEDF90915ABDE4B00C76C51 /* SampleViewController.m in Sources */,
+				7BEDF91315ABECBF00C76C51 /* main.m in Sources */,
+				7BEDF91615ABF2C900C76C51 /* SampleDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +171,6 @@
 				7BEDF8FF15ABDE4B00C76C51 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7BEDF90A15ABDE4B00C76C51 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BEDF90B15ABDE4B00C76C51 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
